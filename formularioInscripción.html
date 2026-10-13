@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Listado de talleres</title>
+    <link rel="stylesheet" href="EstiloDeIndexYFormularioInscripción.css">
+</head>
+
+<body>
+    <header>
+        <div id="CabeceraLogo">
+            <nav id="logo">
+                <ul class="ListaDesordenado">
+                    <li> <h1 id="TituloPagina"> IES ISAAC NEWTON </h1></li>
+                    <li><a href="https://www.educa2.madrid.org/educamadrid/"><img src="EduMad.jpg" alt="Logo de Educa Madrid" /></a></li>
+                    <li><a href="https://www.comunidad.madrid/"><img src="ComMad.png" alt="Logo de la Comunidad de Madrid" /></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="CabeceraSubLogo">
+            <nav>
+                <ul class="ListaDesordenado" id="BarraDeNavegación">
+                    <li><a href="">Enseñanzas</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href=""><span id="ColorLetra">Talleres</span></a></li>
+                    <li><a href="">Proyectos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <article>
+            <h1><span id="Subrayado1">TALLERES </span> </h1>
+            <div id="FondoPangina"> 
+                <div style="position: relative;"><h3> Formulario de Inscripción</h3></div>
+                <div id="ColorLetra2"> *Nombre del taller</div>
+                <form>
+                    <div id="Tabla1">
+                        <table> 
+                        <tr>
+                            <td class="PreguntaDeDAtos" colspan="2"> <label for="nombre">Nombre:</label> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" required name="name" id="nombre"/></td><td>⍰</td>
+                        </tr>
+                        <tr>
+                            <td class="PreguntaDeDAtos" colspan="2"> <label for="Apellidos">Apellidos:</label> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" required name="surname" id="Apellidos"/></td><td>⍰</td>
+                        </tr>
+                        <tr>
+                            <td class="PreguntaDeDAtos" colspan="2"> <label for="dir">Dirección:</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="dir" name="direction" /></td><td>⍰</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <input type="submit" value="Enviar" id="volver"/></td>
+                        </tr>
+                    </table>
+                </div>
+                    <div id="Tabla2">
+                        <table>
+                        <tr>
+                            <td class="PreguntaDeDAtos" colspan="2"> <label for="telefono">Telefono:</label> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" required name="number" id="telefono"/></td><td>⍰</td>
+                        </tr>
+                        <tr>
+                            <td class="PreguntaDeDAtos" colspan="2"> <label for="correo">Correo electrónico:</label> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" required name="email" id="correo"/></td><td>⍰</td>
+                        </tr>
+                        <tr>
+                            <td class="PreguntaDeDAtos" colspan="2"> <label for="dni">DNI/NIE:</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="dni" name="DNI" required pattern="[0-9]{8}[A-Z]"/></td><td>⍰</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <input type="button" value="Voler"/></td>
+                        </tr>
+                    </table>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; IES ISAAC NEWTON reserved all rigths of copyrigth</p>
+        <address>
+            Contact <a href="iesisaacnewton@gmail.com">me</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
